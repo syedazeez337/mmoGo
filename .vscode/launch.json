@@ -10,7 +10,8 @@
             "type": "go",
             "request": "launch",
             "mode": "auto",
-            "program": "${workspaceFolder}/server/cmd/main.go"
+            "program": "${workspaceFolder}/server/cmd/main.go",
+            "output": "${workspaceFolder}/server/cmd/debug_executable.exe",
         }
     ]
 }
